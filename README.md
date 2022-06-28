@@ -12,7 +12,11 @@
 ---
 ### Screen Snippets
 - Home Page (with no data)
+<img src='https://github.com/samyukthasudhakar/interview-react/blob/master/snippet-2.PNG'>
 
 - Home Page (with data rendered as cards)
+<img src='https://github.com/samyukthasudhakar/interview-react/blob/master/snippet-1.PNG'>
 
 - Upload Image Form Page
+<img src='https://github.com/samyukthasudhakar/interview-react/blob/master/snippet-3.PNG'>
+
