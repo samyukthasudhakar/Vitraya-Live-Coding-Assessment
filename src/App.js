@@ -1,12 +1,16 @@
 import './App.css';
 import React from 'react'
+import {Routes, Route} from 'react-router-dom'
+import HomePage from './pages/HomePage';
+import UploadForm from './pages/UploadForm';
 
 function App() {
 
   return(
-    <React.Fragment>
-      <h3>Samyuktha Sudhakar - Interview (React)</h3>
-    </React.Fragment>
+    <Routes>
+      <Route path="/" element={<HomePage />}></Route>
+      <Route path="/upload-image" element={<UploadForm />}></Route>
+    </Routes>
   )
 }
 
