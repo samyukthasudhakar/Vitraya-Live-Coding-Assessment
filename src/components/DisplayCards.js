@@ -1,6 +1,9 @@
 import ImageCard from "./ImageCard"
+import { useDataSourceContext } from '../context/DataSourceContext'
 
 function DisplayCards(){
+
+    const {dataSource: data} = useDataSourceContext()
 
     return(
         <div className="mg-2 parent-container flex-column">
